@@ -1,4 +1,5 @@
 import { Stack } from "expo-router";
+
 export default function StackLayout() {
   return (
     <Stack
@@ -6,7 +7,7 @@ export default function StackLayout() {
         headerShown: false, // 👈 Hides ALL headers by default
       }}
     >
-      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="index" options={{ headerShown: false }} />
     </Stack>
   );
 }
